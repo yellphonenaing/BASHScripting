@@ -630,6 +630,14 @@ PS1="\e[1;32m\u@\h\e[0m : "
 
 >We can add this to ~/.bashrc
 
-
+# 1.18- Trapping Terminations
+```
+#!/usr/bin/bash
+bye(){
+echo "Good bye"
+}
+trap bye 2
+sleep 10
+```
 
 *BASH Scripting Course by* [**Yell Phone Naing**](https://www.facebook.com/yellphoen.naing/)
