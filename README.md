@@ -43,7 +43,8 @@ ls = command to be executed
 #Use echo to print texts
 echo "Hello World"
 ```
-
+| Character | Action |
+|--|--|
 | -n | Do not print new line |
 | -e | escape  interpretation of backslash escapes |
 | \b | remove spaces |
