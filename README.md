@@ -584,6 +584,30 @@ hi
 welcome
 ```
 
+# 1.14- Verify Commands
+```
+#!/usr/bin/bash
+commands=(php curl msfconsole nmap mysql mariadb exiftool dpkg ngrok nc ncat neofetch routersploit)
+for cmd in ${commands[@]};do
+command -v $cmd > /dev/null && echo -e "\e[1;32mCommand ($cmd)is installed\e[0m" || echo -e "\e[1;31mCommand ($cmd) is not installed.\e[0m"
+done
+```
+
+# 1.15- Date and Time
+
+| Command | Output |
+|--|--|
+| date | Print current date and time |
+| date +"%d" | Print current day of the month |
+| date +"%m" | Print current month of the year |
+| date +"%h" | Print current month in name |
+| date +"%y" | Print year |
+| date +"%H" | Print current hour |
+| date +"%M" | Print current minute|
+| date +"%S" | Print current second |
+| date +"%F" | Print full date |
+| date +"%j" | Print day of the year |
+
 # 1.16- Handling System Prompts
 | Prompts | Values |
 |--|--|
