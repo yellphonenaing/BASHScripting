@@ -394,6 +394,13 @@ Array1[0]=Myanmar
 Array2[name]="Cyber Bullet"
 ```
 
+>Array length
+```
+#!/usr/bin/bash
+Actors=('Nay Htoo Aning' 'Nay Toe' 'Myint Myat' 'Kyaw Hein')
+echo ${#Actor[@]}
+```
+
 >Delete An Array
 ```
 Array1=(Mm Th Indo USA IN)
