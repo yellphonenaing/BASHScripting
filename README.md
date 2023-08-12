@@ -1,7 +1,7 @@
 # Bourne Again Shell (BASH)
 **BASH Scripting For Beginners**
 
-![BASH](https://opensource.com/sites/default/files/lead-images/bash_command_line.png)
+![BASH](https://i.ibb.co/186tSdR/bash.jpg)
 
 **What is BASH ?**
 > Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
