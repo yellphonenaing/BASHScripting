@@ -198,6 +198,12 @@ read -p $'\e[1;32mEnter your name : \e[0m'
 echo "Your name is $name"
 ```
 
+>Using stdin
+```
+#!/usr/bin/bash
+cat /dev/stdin
+```
+
 # 6. Conditional Statements
 >The conditional statement is used in any programming language to do any decision-making tasks.
 
