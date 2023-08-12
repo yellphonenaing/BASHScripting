@@ -24,6 +24,7 @@
 | && | And |
 | \|\| | Or |
 | \| | Share Output To Second Command |
+| () | Use () to create command pharse|
 
 ```
 ls -lah /tmp
