@@ -26,6 +26,8 @@
 | \| | Share Output To Second Command |
 | () | Use () to create command pharse|
 
+>Command Syntax
+
 ```
 ls -lah /tmp
 
