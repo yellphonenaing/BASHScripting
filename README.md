@@ -3,7 +3,7 @@
 
 ![BASH](https://i.ibb.co/186tSdR/bash.jpg)
 
-**What is BASH ?**
+# 1.2 - Getting start with SHELL and BASH Scripting
 > Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
 
 **Types Of Shells**
@@ -17,6 +17,7 @@
 6. Fish
 ```
 
+# 1.3 - Text Formating And Syntax
 # Linux Command syntax
 | Character | Action |
 |--|--|
@@ -36,7 +37,6 @@ ls = command to be executed
 /tmp = Argument
 ```
 
-# 1. Text Formatting
 
 ```
 #!/usr/bin/bash
@@ -53,7 +53,7 @@ echo "Hello World"
 | \t | Horizontal |
 | \v | Vertical |
 
-# 2. Color Patterns
+# Color Patterns
 
 ```
 #!/usr/bin/bash
@@ -94,7 +94,7 @@ echo -e "\e[1;31;42mHello World\e[0m"
 | Light Cyan | 96m | 106m |
 | White | 97m | 107m |
 
-# 3. Variables
+# 1.4 - Variables
 
 >Three Types Of Variables in **BASH**
 ```
@@ -140,7 +140,7 @@ echo "My name is $1.I am $2 years old.I live in $3."
 
 >**Output :** My name is YPN.I am 20 years old.I live in Malun.
 
-# 4. Redirections
+# 1.5 - Redirections
 
 >Two Types Of Redirections
 ```
@@ -165,7 +165,7 @@ echo "BASH" >>languages.txt
 echo "Ruby" >>languages.txt
 ```
 
-# 5. User Prompts
+# 1.6 - User prompts
 >User prompt is an input used to get data from user.
 
 >Normal Prompt
@@ -204,7 +204,7 @@ echo "Your name is $name"
 cat /dev/stdin
 ```
 
-# 6. Conditional Statements
+# 1.7 - Conditional Statements
 >The conditional statement is used in any programming language to do any decision-making tasks.
 
 >if else statement
@@ -259,7 +259,7 @@ echo "Your country is not in list";;
 esac
 ```
 
-# 7. Operators
+# 1.8 - Operators
 >Many conditional operators can be used in conditional statements
 
 **7.1 Conditional Operators**
@@ -291,7 +291,7 @@ esac
 | ++ | To increase the value of operand by one |
 | -- | To decrease the value of a operand by one |
 
-# 8. Math
+# 1.9 - Math
 >Using BASH Capabilities
 ```
 #!/usr/bin/bash
@@ -312,7 +312,54 @@ expr 100 - 70
 expr 10 \* 3
 ```
 
-# 9. Shell Expansions
+# 1.10 - Array
+>Normal Array
+```
+#!/usr/bin/bash
+Countries=(Myanmar Thai China Indonesia)
+Actors=('Nay Htoo Aning' 'Nay Toe' 'Myint Myat' 'Kyaw Hein')
+echo ${Countries[@]}
+echo ${Countries[0]}
+echo ${Actors[2]}
+```
+
+>Associative Array
+```
+#!/usr/bin/bash
+declare -A Info
+Info=([name]='Yell Phone Naing' [age]='18' [add]='Malun')
+echo "I am ${Info[name]}.I am ${Info[age]} years old.I live in ${Info[add]}"
+```
+
+>Modify An Array
+```
+#!/usr/bin/bash
+Array1=(Mm Th Indo USA IN)
+declare –A Array2
+Array2=([name]="Yell Phone Naing" [age]="18" [add]="Malun")
+Array1[0]=Myanmar
+Array2[name]="Cyber Bullet"
+```
+
+>Array length
+```
+#!/usr/bin/bash
+Actors=('Nay Htoo Aning' 'Nay Toe' 'Myint Myat' 'Kyaw Hein')
+echo ${#Actor[@]}
+```
+
+>Delete An Array
+```
+#!/usr/bin/bash
+Array1=(Mm Th Indo USA IN)
+declare –A Array2
+Array2=([name]="Yell Phone Naing" [age]="18" [add]="Malun")
+unset Array1[0]
+unset Array1
+unset Array2[name]
+```
+
+# 1.11 - Shell Expansions
 >Three types of expensions
 ```
 1. Brace Expansion
@@ -411,7 +458,7 @@ unset Array1
 unset Array2[name]
 ```
 
-# 11. Looping
+# 1.12- Looping
 >Three types of looping in BASH
 ```
 1. For Loop
@@ -515,7 +562,7 @@ do
 done
 ```
 
-# 12. Functions
+# 1.13- Functions
 >Function
 ```
 #!/usr/bin/bash
@@ -537,7 +584,7 @@ hi
 welcome
 ```
 
-# 12. Handling System Prompts
+# 1.16- Handling System Prompts
 | Prompts | Values |
 |--|--|
 | \u | Username |
@@ -551,7 +598,7 @@ welcome
 | \v | BASH version |
 | \d | Current Date |
 
-# 13. Customizing PS1
+# 1.17- Customizing PS1
 ```
 PS1="Enter Command : "
 PS1="\e[1;32m\u@\h\e[0m : "
@@ -559,9 +606,6 @@ PS1="\e[1;32m\u@\h\e[0m : "
 
 >We can add this to ~/.bashrc
 
-**Video Channel**
-```
-https://www.youtube.com/playlist?list=PLl9tJseyzT3F4jHF9IF5xFTGVc399t6j5
-```
+
 
 *BASH Scripting Course by* [**Yell Phone Naing**](https://www.facebook.com/yellphoen.naing/)
