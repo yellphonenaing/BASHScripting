@@ -50,6 +50,8 @@ echo "Hello World"
 #!/usr/bin/bash
 #Use -e option to add colours to text
 echo -e "\e[1;31mHello World\e[0m"
+echo -e "\e[1;42mHello World\e[0m"
+echo -e "\e[1;31;42mHello World\e[0m"
 ```
 
 >Style Codes
