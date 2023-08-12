@@ -204,7 +204,7 @@ echo "Your name is $name"
 >if else statement
 ```
 #!/usr/bin/bash
-if [ 1 == 1 ];then
+if [[ 1 == 1 ]];then
 echo "Equal"
 else
 echo "Not Equal"
@@ -214,9 +214,9 @@ fi
 >if elif else statement
 ```
 #!/usr/bin/bash
-if [ 20 == 1 ];then
+if [[ 20 == 1 ]];then
 echo "Equal"
-elif [ 20 = 20 ];then
+elif [[ 20 = 20 ]];then
 echo "20 = 20 is true"
 else
 echo "Not Equal"
