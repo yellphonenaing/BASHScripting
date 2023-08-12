@@ -31,9 +31,9 @@
 ```
 ls -lah /tmp
 
->ls = command to be executed
-> -lah = Options
->/tmp = Argument
+ls = command to be executed
+-lah = Options
+/tmp = Argument
 ```
 
 # 1. Text Formatting
