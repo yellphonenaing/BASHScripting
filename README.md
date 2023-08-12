@@ -44,6 +44,14 @@ ls = command to be executed
 echo "Hello World"
 ```
 
+| -n | Do not print new line |
+| -e | escape  interpretation of backslash escapes |
+| \b | remove spaces |
+| \n | new line |
+| \f | form feed|
+| \t | Horizontal |
+| \v | Vertical |
+
 # 2. Color Patterns
 
 ```
