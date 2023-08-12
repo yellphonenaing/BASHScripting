@@ -369,8 +369,10 @@ echo `whoami`
 ```
 #!/usr/bin/bash
 Countries=(Myanmar Thai China Indonesia)
+Actors=('Nay Htoo Aning' 'Nay Toe' 'Myint Myat' 'Kyaw Hein')
 echo ${Countries[@]}
 echo ${Countries[0]}
+echo ${Actors[2]}
 ```
 
 >Associative Array
