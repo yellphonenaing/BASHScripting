@@ -4,7 +4,8 @@
 ls; pwd # usage of ;
 id && whoami # usage of &&
 cat /etc/shadow | cat /etc/passwd  # usage of double pipe
-cat /etc/passwd | head -n 10
+cat /etc/passwd | head -n 10 # usage of single pipe
+(id;whoami) # usage of twists
 echo "Hello world"
 echo -e "\e[1;32mHello World\e[0m"
 echo -e "\e[1;41mHello World\e[0m"
