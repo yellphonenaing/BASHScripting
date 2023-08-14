@@ -394,7 +394,7 @@ unset Array2[name]
 3. Command Substitution
 ```
 
-**9.1 Brace Expansion**
+**1.11.1 Brace Expansion**
 ```
 #!/usr/bin/bash
 echo {1..10}
@@ -409,7 +409,7 @@ echo "I like "{BASH,PHP,Python}" so much."
 #Output : I like BASH so much.I like PHP so much.I like Python so much
 ```
 
-**9.2 Variable Expansion**
+**1.11.2 Variable Expansion**
 
 ```
 #!/usr/bin/bash
@@ -430,7 +430,7 @@ echo ${Text: -1}
 #Output : 5
 ```
 
-**9.2 Command Substitution**
+**1.11.3 Command Substitution**
 
 ```
 #!/usr/bin/bash
