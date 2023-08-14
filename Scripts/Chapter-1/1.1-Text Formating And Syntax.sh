@@ -3,7 +3,7 @@
 
 ls; pwd # usage of ;
 id && whoami # usage of &&
-zsh || bash # usage of double pipe
+cat /etc/shadow | cat /etc/passwd  # usage of double pipe
 cat /etc/passwd | head -n 10
 echo "Hello world"
 echo -e "\e[1;32mHello World\e[0m"
