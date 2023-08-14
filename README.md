@@ -42,6 +42,8 @@
 6. Fish
 ```
 
+![BASH](https://www.guru99.com/images/2/ShellScripting-v1.png)
+
 # 1.3 - Text Formating And Syntax
 # Linux Command syntax
 | Character | Action |
