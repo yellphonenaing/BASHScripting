@@ -11,7 +11,21 @@
 
 ```
 1. High-Level Programming Languages
-2. Low-Level Programming Languages:
+2. Low-Level Programming Languages
+```
+
+**Compiled Languages**
+```
+1. Compilation
+2. Linking
+3. execution
+```
+
+**Interpreted Languages**
+```
+1. Reading
+2. Parsing
+3. Execution
 ```
 
 # 1.2 - Getting start with SHELL and BASH Scripting
