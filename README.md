@@ -3,6 +3,10 @@
 
 ![BASH](https://i.ibb.co/186tSdR/bash.jpg)
 
+# 1.1 - What is programming?
+
+![Programming](https://pbs.twimg.com/media/FIjzRYdVcAAUNYI.jpg)
+
 # 1.2 - Getting start with SHELL and BASH Scripting
 > Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
 
