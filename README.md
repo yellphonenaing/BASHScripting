@@ -344,7 +344,7 @@ expr 10 \* 3
 ```
 #!/usr/bin/bash
 Countries=(Myanmar Thai China Indonesia)
-Actors=('Nay Htoo Aning' 'Nay Toe' 'Myint Myat' 'Kyaw Hein')
+Actors=('Nay Htoo Naing' 'Nay Toe' 'Myint Myat' 'Kyaw Hein')
 echo ${Countries[@]}
 echo ${Countries[0]}
 echo ${Actors[2]}
@@ -371,7 +371,7 @@ Array2[name]="Cyber Bullet"
 >Array length
 ```
 #!/usr/bin/bash
-Actors=('Nay Htoo Aning' 'Nay Toe' 'Myint Myat' 'Kyaw Hein')
+Actors=('Nay Htoo Naing' 'Nay Toe' 'Myint Myat' 'Kyaw Hein')
 echo ${#Actor[@]}
 ```
 
