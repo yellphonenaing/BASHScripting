@@ -7,6 +7,13 @@
 
 ![Programming](https://pbs.twimg.com/media/FIjzRYdVcAAUNYI.jpg)
 
+**Types Of Programming Languages**
+
+```
+1. High-Level Programming Languages
+2. Low-Level Programming Languages:
+```
+
 # 1.2 - Getting start with SHELL and BASH Scripting
 > Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
 
