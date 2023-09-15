@@ -13,6 +13,7 @@
 1. High-Level Programming Languages
 2. Low-Level Programming Languages
 ```
+![Languages](https://miro.medium.com/v2/resize:fit:991/1*3Iy-ohRRXj3lChmEbQTxIQ.png)
 
 **Compiled Languages**
 ```
